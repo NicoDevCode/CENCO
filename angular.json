@@ -25,7 +25,20 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/jquery/dist/jquery.min.js",
+              "src/assets/js/popper.js",
+              "src/assets/plugins/bootstrap/js/bootstrap.min.js",
+              "src/assets/plugins/chart-circle/circle-progress.min.js",
+              "src/assets/plugins/chart.js/dist/Chart.min.js",
+              "src/assets/plugins/chart.js/dist/Chart.extension.js",
+              "src/assets/plugins/horizontal-menu/webslidemenu.js",
+              "src/assets/plugins/customscroll/jquery.mCustomScrollbar.concat.min.js",
+              "src/assets/plugins/peitychart/jquery.peity.min.js",
+              "src/assets/plugins/peitychart/peitychart.init.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/dashboard-finance.js"
+            ]
           },
           "configurations": {
             "production": {

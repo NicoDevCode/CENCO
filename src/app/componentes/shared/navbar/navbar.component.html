@@ -1,0 +1,65 @@
+<!-- Top navbar -->
+<nav class="navbar navbar-top  navbar-expand-md navbar-dark" id="navbar-main">
+  <div class="container">
+    <a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+    <a class="navbar-brand" href="index.html"><img alt="..." class="navbar-brand-img main-logo" src="../assets/img/brand/logo.png"></a>
+    <!-- Form -->
+    <form class="navbar-search navbar-search-dark form-inline ml-3  mr-lg-auto">
+
+    </form>
+    <!-- User -->
+    <!-- User -->
+    <ul class="navbar-nav align-items-center ">
+      <li class="nav-item dropdown">
+        <a aria-expanded="false" aria-haspopup="true" class="nav-link pr-md-0 mr-md-2 pl-1" data-toggle="dropdown" href="#" role="button">
+          <div class="media align-items-center">
+            <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="../assets/img/faces/female/27.jpg"></span>
+
+          </div>
+        </a>
+        <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+          <div class=" dropdown-header noti-title text-center border-bottom pb-3">
+            <h3 class="text-capitalize text-dark mb-1">Luna Klippel</h3>
+            <h6 class="text-overflow m-0">Administrator</h6>
+          </div>
+          <a class="dropdown-item" href="user-profile.html"><i class="ni ni-single-02"></i> <span>My profile</span></a>
+          <a class="dropdown-item" href="#"><i class="ni ni-settings-gear-65"></i> <span>Settings</span></a>
+          <a class="dropdown-item" href="#"><i class=" ni ni-email-83"></i> <span>Chat</span></a>
+          <a class="dropdown-item" href="#"><i class=" ni ni-single-02"></i> <span>Friends</span></a>
+          <a class="dropdown-item" href="#"><i class="ni ni-calendar-grid-58"></i> <span>Activity</span></a>
+          <a class="dropdown-item" href="#"><i class="ni ni-support-16"></i> <span>Support</span></a>
+          <div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="ni ni-user-run"></i> <span>Logout</span></a>
+        </div>
+      </li>
+      <li class="nav-item d-none d-md-flex">
+        <div class="dropdown d-none d-md-flex mt-2 ">
+          <a class="nav-link full-screen-link  pr-0"><i class="fe fe-maximize-2 floating " id="fullscreen-button"></i></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Top navbar-->
+
+<!--Horizontal-menu-->
+<div class="horizontal-main clearfix"  id="headerMenuCollapse">
+  <div class="horizontal-mainwrapper container clearfix">
+    <nav class="horizontalMenu clearfix">
+      <ul class="horizontalMenu-list">
+
+        <li aria-haspopup="true"><a routerLink="/home" class="sub-icon"><i class="fe fe-home"></i>Inicio</a></li>
+        <li aria-haspopup="true"><a href="#" class="sub-icon"><i class="fas fa-money-bill"></i> Deudas <i class="fa fa-angle-down hor-icon"></i></a>
+          <ul class="sub-menu">
+            <li aria-haspopup="true"><a routerLink="/deudas" >Pagadas</a></li>
+            <li aria-haspopup="true"><a routerLink="/deudas">No pagadas</a></li>
+          </ul>
+        </li>
+        <li aria-haspopup="true"><a routerLink="deudores" class=""><i class="fe fe-users"></i> Deudores</a></li>
+        <li aria-haspopup="true"><a routerLink="informes" class=""><i class="fas fa-list"></i> Informes</a></li>
+
+
+      </ul>
+    </nav>
+    <!--Menu HTML Code-->
+  </div>
+</div>
